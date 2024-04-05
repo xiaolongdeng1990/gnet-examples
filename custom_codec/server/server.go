@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/gnet-io/gnet-examples/custom_codec/protocol"
+	"github.com/xiaolongdeng1990/gnet-examples/custom_codec/protocol"
 
 	"github.com/panjf2000/gnet"
 	"github.com/panjf2000/gnet/pkg/pool/goroutine"
@@ -65,4 +65,3 @@ func main() {
 	addr := fmt.Sprintf("tcp://:%d", port)
 	testCustomCodecServe(addr, multicore, false, &protocol.CustomLengthFieldProtocol{})
 }
-

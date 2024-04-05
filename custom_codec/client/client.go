@@ -8,7 +8,7 @@ import (
 
 	"github.com/panjf2000/gnet"
 
-	"github.com/gnet-io/gnet-examples/custom_codec/protocol"
+	"github.com/xiaolongdeng1990/gnet-examples/custom_codec/protocol"
 )
 
 // Example command: go run client.go
@@ -73,4 +73,3 @@ func main() {
 	}
 	cs.wg.Wait() // wait for completing async write operation
 }
-

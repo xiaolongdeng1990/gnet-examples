@@ -12,7 +12,7 @@ import (
 
 	"github.com/panjf2000/gnet/v2/pkg/logging"
 
-	"github.com/gnet-io/gnet-examples/simple_protocol/protocol"
+	"github.com/xiaolongdeng1990/gnet-examples/simple_protocol/protocol"
 )
 
 func logErr(err error) {

@@ -1,4 +1,4 @@
-module github.com/gnet-io/gnet-examples
+module github.com/xiaolongdeng1990/gnet-examples
 
 go 1.14
 

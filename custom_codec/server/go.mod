@@ -1,3 +1,3 @@
-module xiaolongdeng1990/gnet-examples/custom_codec/server
+module custom_codec_server
 
 go 1.20
